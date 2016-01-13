@@ -17,7 +17,7 @@ test('it has a position', function(assert) {
   assert.equal(player.position, 'wr', 'position');
 });
 
-test('it has a position', function(assert) {
+test('it has a team', function(assert) {
   let player = this.subject();
   player.team = 'ne';
   assert.equal(player.position, 'ne', 'team');
