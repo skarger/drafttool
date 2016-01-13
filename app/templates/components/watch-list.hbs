@@ -1,0 +1,9 @@
+<article class="watch-list">
+  <h1>{{title}}</h1>
+  <ul>
+    {{#each players as |player|}}
+      <li>Hello, {{player.name}}!</li>
+    {{/each}}
+  </ul>
+  <p>{{yield}}</p>
+</article>
